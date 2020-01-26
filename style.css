@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 120%;
+    background: url(image/6.jpg);
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.judul-login {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: White;
+    background: #0a9c9c;
+    text-align: center;
+    font-family: Algerian;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    background: black;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+}
+.input-group {
+    margin: 10px 10px 10px 10px;
+}
+.input-group label {
+    display: block;
+    text-align: center;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 90%;
+    padding: 5px 10px;
+    font-size: 16px;
+     border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.btn {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #0a9c9c;
+    border: none;
+    margin-left: 35%;
+    width: 30%;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.btn:hover{
+    color:#0a9c9c;
+    background-color: white;
+    border :2px solid #0a9c9c;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
